@@ -84,7 +84,7 @@ body {
 }
 
 .navigation-list {
-    width: 415;
+    min-width: 415px;
     margin-left: 239px;
     padding: 0;
 }
@@ -236,7 +236,7 @@ body {
     text-align: center;
 }
 
-.button button-search {
+.button-button-search {
 
     width: 544px;
     padding: 15px;
@@ -249,7 +249,6 @@ body {
 }
 
 .footer-social-list {
-    width: 184px;
     margin-right: 195px;
 
 }
@@ -258,11 +257,10 @@ body {
     font-size: 40px;
     line-height: 40px;
     color: #000000;
-    width: 869px;
 }
 
 .htmlacademy-link {
-    margin-left: 194px;
+    margin-left: auto;
 }
 
 .inner-header {
