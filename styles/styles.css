@@ -373,12 +373,15 @@ body {
   background-color: #ffffff;
   width: 1200px;
 }
-.catalog-filter-list{
+
+.catalog-filter-list {
   display: grid;
 }
-.catalog-filter-group{
-  margin:70px;
+
+.catalog-filter-group {
+ margin: 70px;
 }
+
 .product-list {
   display: grid;
   grid-template-columns: repeat(3, 340px);
@@ -400,7 +403,8 @@ body {
 
 .catalog-filter {
   display: flex;
-align-items: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .catalog-filter-title {
@@ -429,7 +433,8 @@ align-items: center;
   height: 48px;
   margin: 8px;
 }
-.filter-button{
+
+.filter-button {
   display: flex;
   flex-direction: column;
   margin-top: 60px;
